@@ -1,4 +1,4 @@
-package net.greayzeldrix.vulpine.client;
+package net.greayzeldrix.vulpine;
 
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;

@@ -1,4 +1,4 @@
-package net.greayzeldrix.vulpine.client;
+package net.greayzeldrix.vulpine;
 
 import net.fabricmc.api.ClientModInitializer;
 

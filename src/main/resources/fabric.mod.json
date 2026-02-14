@@ -3,21 +3,23 @@
   "id": "vulpine",
   "version": "${version}",
   "name": "Vulpine",
-  "description": "",
-  "authors": [],
+  "description": "Feel like a Fox. Be the Fox!",
+  "authors": [
+    "greayzeldrix-cyber"
+  ],
   "contact": {},
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/vulpine/icon.png",
   "environment": "*",
   "entrypoints": {
     "fabric-datagen": [
-      "net.greayzeldrix.vulpine.client.VulpineDataGenerator"
-    ],
-    "client": [
-      "net.greayzeldrix.vulpine.client.VulpineClient"
+      "net.greayzeldrix.vulpine.VulpineDataGenerator"
     ],
     "main": [
       "net.greayzeldrix.vulpine.Vulpine"
+    ],
+    "client": [
+      "net.greayzeldrix.vulpine.VulpineClient"
     ]
   },
   "mixins": [
