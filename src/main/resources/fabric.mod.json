@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "vulpine",
+  "version": "${version}",
+  "name": "Vulpine",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/vulpine/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "net.greayzeldrix.vulpine.client.VulpineDataGenerator"
+    ],
+    "client": [
+      "net.greayzeldrix.vulpine.client.VulpineClient"
+    ],
+    "main": [
+      "net.greayzeldrix.vulpine.Vulpine"
+    ]
+  },
+  "mixins": [
+    "vulpine.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
